@@ -58,6 +58,6 @@ rails server
 
 Assume that you have run the rails project on a TiDB Serverless. Next, you can use the [Branching GitHub integration](https://docs.pingcap.com/tidbcloud/branch-github-integration) to connect the TiDB Serverless to this repo. Then a database branch will be created for every pull request to test the changes before merging the code to the master branch.
 
-This repo has already connected to a TiDB Serverless. Check this [pull request](https://github.com/shiyuhang0/branching-rails-exmaple/pull/1) to see how we check the migration changes!
+This repo has already connected to a TiDB Serverless. Check this [pull request](https://github.com/shiyuhang0/branching-rails-example/pull/1) to see how we check the migration changes!
 
 
