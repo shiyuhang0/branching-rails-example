@@ -25,7 +25,13 @@ git clone git@github.com:shiyuhang0/branching-rails-example.git
 cd branching-rails-example
 ```
 
-2. Fill in the following environment variable defined in `config/database.yml`. You can find the information in the TiDB Serverless console.
+2. Install the dependencies
+
+```
+bundle install
+```
+
+3. Fill in the following environment variable defined in `config/database.yml`. You can find the information in the TiDB Serverless console.
 
 ```
 export TIDB_DATABASE=
@@ -35,14 +41,14 @@ export TIDB_PASSWORD=
 export TIDB_CERT_PATH=
 ```
 
-3. Migrate and seed
+4. Migrate and seed
 
 ```
 rake db:migrate
 rake db:seed
 ```
 
-4. Run the server
+5. Run the server
 
 ```
 rails server
